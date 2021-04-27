@@ -1,0 +1,279 @@
+@media screen and (max-width: 768px){
+    .home .container .menu{
+        display: inline-block;
+    }
+    .home .container .nav{
+        display: none;
+    }
+    .caption h1{
+        font-size: 50px;
+    }
+    .about .container{
+        position: static;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about .container .profile{
+        width: auto;
+    }
+    .about .container .profile .border, .about .container .profile .overlay{
+        display: none;
+    }
+    .about .container .profile img{
+        width: auto;
+        position: static;;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .about .container .text{
+        width: auto;
+        position: static;
+        display: block;
+        padding-top: 15px;
+    }
+    .about .container .text .list .left-list{
+        display: inline-block;
+        margin-right: 40px;
+    }
+    .about .container .text .list .right-list{
+        display: inline-block;
+        margin-left: 0;
+    }
+    .services .container .services-items{
+        margin: 0 auto;
+        width: 400px;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .services .container h4{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 20px auto;
+    }
+    .services .container .services-items .s-item span{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .services .container .services-items .s-item{
+        padding: 10px 20px;
+        width: 100%;
+    }
+    h4{
+        width: 100%;
+    }
+    h4::before, h4::after{
+        display: none;
+    }
+    .Portfolio .container .gallery{
+        padding: 0 40px;
+    }
+    .Portfolio .container .gallery img{
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .count-bar .container{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .count-bar .container .count-item{
+        width: 100%;
+        padding: 0;
+    }
+    .feedback{
+        width: auto;
+        display: block;
+    }
+    .person-pic img{
+        width: 100%;
+    }
+    .person-pic{
+         width: 35%;
+        margin: 0 auto;
+    }
+    .feedback .comment{
+        width: 100%;
+    }
+    .comment p{
+        line-height: 20px;
+    }
+    .blog-parent{
+        width: auto;
+        display: block;
+        padding: 0;
+    }
+    .post{
+        width: auto;
+        margin-top: 30px;
+    }
+    .post-content span{
+        font-size: 20px;
+    }
+    .form form{
+        overflow: hidden;
+    }
+    .form form .top-line{
+        float: left;
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .logo a{
+        width: 20%;
+    }
+    .nav ul{
+        width: 80%;
+    }
+    .nav ul li{
+        padding: 22px 5px;
+    }
+    .nav ul li a{
+        letter-spacing: 0.4px;
+    }
+    
+    .about .container{
+        position: static;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about .container .profile{
+        width: auto;
+    }
+    .about .container .profile .border, .about .container .profile .overlay{
+        display: none;
+    }
+    .about .container .profile img{
+        width: auto;
+        position: static;;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .about .container .text{
+        width: auto;
+        position: static;
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .about .container .text .list .left-list{
+        display: inline-block;
+        margin-right: 40px;
+    }
+    .about .container .text .list .right-list{
+        display: inline-block;
+        margin-left: 0;
+    }
+    .services .container .services-items{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .services .container .services-items .s-item{
+        width: 50%;
+    }
+    .services .container h4{
+        margin: 10px auto;
+        padding-bottom: 40px;
+    }
+    h4{
+        width: 100%;
+    }
+    h4::before, h4::after{
+        display: none;
+    }
+    .Portfolio .container .gallery{
+        padding: 0 20px;
+    }
+    .Portfolio .container .gallery img{
+        width: 50%;
+        padding: 15px 15px;
+    }
+    .post-content span{
+        font-size: 18px;
+    }
+    .post-content p{
+        margin: 8px 0;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .form form{
+        overflow: hidden;
+    }
+    .form form .top-line{
+        float: left;
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    .about .container .text .list .left-list{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .about .container .text .list .right-list{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .about .container{
+        font-weight: normal;
+        height: auto;
+    }
+    .about .container .text{
+        width: auto;
+        position: static;
+        display: block;
+        padding-top: 10px;
+    }
+    .about .container .profile .border, .about .container .profile .overlay{
+        display: none;
+    }
+    .about .container .profile img{
+        position: static;
+        width: auto;
+        display: block;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .services .container .services-items{
+        margin-top: 0;
+    }
+    .services .container .services-items .s-item{
+        padding: 0px 10px;
+        width: 25%;
+    }
+    .services .container .services-items .s-item span{
+        font-size: 20px;
+    }
+    .services .container .services-items .s-item p{
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .services .container h4{
+        margin: 10px auto;
+        padding-bottom: 40px;
+    }
+    h4{
+        width: 100%;
+    }
+    h4::before, h4::after{
+        display: none;
+    }
+    .form form{
+        overflow: hidden;
+    }
+    .form form .top-line{
+        float: left;
+        width: 45%;
+    }
+}
